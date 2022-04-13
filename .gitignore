@@ -1,0 +1,62 @@
+# Common 
+*.log
+*.class
+*.temp
+*.tmp
+
+# IntelliJ project files
+.idea/
+*.iml
+out
+gen
+
+# Visual Studio Code
+.history/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+!/.mvn/wrapper/maven-wrapper.jar
+**/target/
+**/.mvn/
+*.iml
+
+# Eclipse
+.classpath
+.settings/
+.project
+bin/
+
+# System related
+*.DS_Store
+Thumbs.db
+
+
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
